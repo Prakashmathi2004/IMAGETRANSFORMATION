@@ -27,7 +27,7 @@ Display all the Transformed images.
 
 ## Program:
 
-Developed By:PRAKASH M
+Developed By:PRAKASH M    
 Register Number: 212222100035
 
 i)Image Translation
@@ -134,7 +134,7 @@ vi)Image Cropping
 import numpy as np
 import cv2
 import matplotlib.pyplot as plt
-lion_image = cv2.imread("lion.jpeg")
+lion_image = cv2.imread("m.jpg")
 lion_image = cv2.cvtColor(lion_image,cv2.COLOR_BGR2RGB)
 plt.axis('off')
 plt.imshow(lion_image)
